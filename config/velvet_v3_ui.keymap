@@ -36,6 +36,70 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        LP {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <4 5>;
+        };
+
+        RP {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <6 7>;
+        };
+
+        LB {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <16 17>;
+        };
+
+        RB {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <18 19>;
+        };
+
+        LBR {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <28 29>;
+        };
+
+        RBR {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <30 31>;
+        };
+
+        MINU {
+            bindings = <&kp MINUS>;
+            key-positions = <3 4>;
+        };
+
+        PLU {
+            bindings = <&kp PLUS>;
+            key-positions = <2 3>;
+        };
+
+        DBQ {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <15 16>;
+        };
+
+        UNDSC {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <7 8>;
+        };
+
+        SQUO {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <19 20>;
+        };
+
+        PP {
+            bindings = <&kp PIPE>;
+            key-positions = <8 9>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
