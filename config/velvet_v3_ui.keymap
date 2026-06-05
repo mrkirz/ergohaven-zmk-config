@@ -165,7 +165,7 @@
 &trackball { cpi = <3200>; };
 
 &trackball_listener {
-    input-processors = <&zip_auto_mouse 6 1000>, <&zip_xy_scaler 18 20>;
+    input-processors = <&zip_auto_mouse 4 1000>, <&zip_xy_scaler 18 20>;
 
     scroller {
         layers = <5>;
